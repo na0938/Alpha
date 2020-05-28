@@ -29,7 +29,7 @@ PM_START_TEXT = """
 Hey there! My name is {} - I'm here to help you manage your groups! 
 Hit /help to find out more about how to use me to my full potential.
 
-Want to add me to your chat? Click here!
+Want to add me to your chat? [Click here!](http://telegram.me/MissRose_bot?startgroup=botstart)
 
 """
 
