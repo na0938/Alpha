@@ -29,7 +29,7 @@ PM_START_TEXT = """
 Hey there! My name is {} - I'm here to help you manage your groups! 
 Hit /help to find out more about how to use me to my full potential.
 
-Want to add me to your chat? [Click here!](http://telegram.me/MissRose_bot?startgroup=botstart)
+Want to add me to your chat? [Click here!](http://telegram.me/RealNinjaBot?startgroup=botstart)
 
 """
 
@@ -44,7 +44,7 @@ Hello! my name *{}*.
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
-
+   - if you have any bugs or questions feel free to message me @RealNinja
 
 {}
 And the following:
@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Dev",
-                                                                       url="t.me/TheDragonDentist".format(bot.username))]]))
+                                                                       url="t.me/RealNinja".format(bot.username))]]))
 
 
     else:
