@@ -26,10 +26,10 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-Hey there! My name is {} - I'm here to help you manage your groups! 
+Hey there! - I'm here to help you manage your groups! 
 Hit /help to find out more about how to use me to my full potential.
 
-Want to add me to your chat? [Click here!](http://telegram.me/RealNinjaBot?startgroup=botstart)
+Want to add me to your chat? [Click here!](http://telegram.me/KarvorRoBot?startgroup=botstart)
 
 """
 
@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Dev",
-                                                                       url="t.me/RealNinja".format(bot.username))]]))
+                                                                       url="t.me/KarvorTM".format(bot.username))]]))
 
 
     else:
