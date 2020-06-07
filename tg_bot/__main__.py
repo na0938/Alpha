@@ -47,7 +47,7 @@ Hello! my name *{}*.
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
-   - if you have any bugs or questions feel free to message me @RealNinja
+   - if you found any bugs or questions feel free to message me @KarvorTM
 
 {}
 And the following:
