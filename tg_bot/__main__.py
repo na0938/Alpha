@@ -26,10 +26,13 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-Hey there! - I'm here to help you manage your groups! 
+Hey there {} my name is {} - 
+
+I'm here to help you manage your groups! 
+
 Hit /help to find out more about how to use me to my full potential.
 
-Want to add me to your chat? [Click here!](http://telegram.me/KarvorRoBot?startgroup=botstart)
+[Source](github.com/Karvor/Alpha)
 
 """
 
@@ -48,7 +51,7 @@ Hello! my name *{}*.
 
 {}
 And the following:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or *.\n")
 
 
 IMPORTED = {}
