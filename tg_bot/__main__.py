@@ -25,16 +25,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 
-PM_START_TEXT = """
-Hey there {} my name is {} - 
-
-I'm here to help you manage your groups! 
-
-Hit /help to find out more about how to use me to my full potential.
-
-[Source](github.com/Karvor/Alpha)
-
-"""
+PM_START_TEXT = """AAMCAgADGQEAAQURAV7jYyT9erC13tA4p5JN1x90kXWVAALoCQACjC5wAAGwUYd50sTN5f_wapEuAAMBAAdtAAPsBQACGgQ"""
 
 HELP_STRINGS = """
 
